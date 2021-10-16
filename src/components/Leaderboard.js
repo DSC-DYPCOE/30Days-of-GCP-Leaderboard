@@ -14,7 +14,7 @@ const Leaderboard = ({ studentData }) => {
         </thead>
         <tbody>
           {studentData.map(data => (
-            <DataItem data={data} key={data["Student Email"]} />
+            <DataItem data={data} key={data["Student Name"]} />
           ))}
         </tbody>
       </table>

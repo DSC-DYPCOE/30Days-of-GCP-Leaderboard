@@ -8,10 +8,22 @@ const App = () => {
     <div className="App">
       <div className="heading">
         <img src={logo} alt="GDSC DYPCOE Pune" className="gdsc_logo" />
-        <h1>GDSC DYPCOE Pune GCP Leaderboard</h1>
+        <h1>30 Days of Google Cloud Leaderboard</h1>
         <div className="message">
-          <h4>Data will be updated after 24 hours</h4>
+          <h4>Data will be updated every 24 hours</h4>
         </div>
+        {/* <input
+          type="text"
+          name="name"
+          style={{
+            border: "1px solid #7b7f85",
+            borderRadius: 20,
+            width: "300px",
+          }}
+          className="searchBar"
+          placeholder="Search Your Name Here"
+          
+        /> */}
       </div>
       <Leaderboard studentData={data || []} />
     </div>
