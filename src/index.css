@@ -1,0 +1,25 @@
+html {
+  width: 100%;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  text-align: center;
+  background: #fffefb;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.message {
+  margin: 0 auto;
+  width: 35%;
+  background: #fdd86f;
+  padding: 2px;
+  font-size: 16px;
+  border-radius: 8px;
+  font-style: normal;
+}

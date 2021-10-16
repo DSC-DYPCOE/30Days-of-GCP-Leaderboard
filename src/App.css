@@ -1,0 +1,78 @@
+.App {
+  padding: 20px 0px;
+  max-width: 1220px;
+  margin: 0 auto;
+  zoom: 85%;
+}
+
+.gdsc_logo {
+  height: 300px;
+  width: 600px;
+}
+
+.main-table {
+  border-collapse: separate;
+  border-spacing: 0 1.4em;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 700;
+}
+
+.main-table thead tr {
+  font-size: 20px;
+  color: #000;
+  font-weight: 800;
+}
+
+.main-table thead tr th {
+  padding: 5px 10px;
+}
+
+.main-table tbody tr {
+  padding: 0 20px;
+  background: linear-gradient(
+    45deg,
+    rgba(255, 204, 0, 0.6) 0%,
+    rgba(212, 42, 255, 0.7) 90%
+  );
+  color: #000;
+  font-size: 18px;
+}
+
+.main-table tbody tr:hover {
+  transform: translateY(-2px);
+  transition: all 0.4s ease;
+}
+
+.main-table tbody tr td {
+  height: 60px;
+}
+
+.heading {
+  font-size: 20px;
+  color: #0e2942 !important;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-style: italic;
+  padding: 10px 25px;
+  border-radius: 10px;
+  margin: 0 25px;
+}
+
+.rank {
+  font-weight: bold;
+  font-size: 1.25rem;
+  padding: 4px 5px;
+}
+
+@media (max-width: 992px) {
+  .heading {
+    width: 80%;
+    margin: auto;
+    font-size: 16px;
+  }
+
+  .container {
+    overflow-x: scroll;
+  }
+}
