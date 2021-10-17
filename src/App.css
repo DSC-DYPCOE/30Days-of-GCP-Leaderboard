@@ -74,6 +74,8 @@
 
   .container {
     overflow-x: scroll;
+    zoom: 70%;
+    margin: 0 1rem;
   }
 }
 
