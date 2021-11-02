@@ -11,7 +11,7 @@ const App = () => {
         <h1>30 Days of Google Cloud Leaderboard</h1>
         <div className="message">
           <h4>Data will be updated every 24 hours</h4>
-          <h4>Last updated on 29/10/21</h4>
+          <h4>Last updated on 30/10/21</h4>
         </div>
         {/* <input
           type="text"
